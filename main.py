@@ -17,17 +17,10 @@ menuFile = {'New': 'File', 'Open': 'File', 'Save': 'File', 'Save As': 'File', '-
             'Gaussian': '*Blur', 'Median': '*Blur', 'FaceDetection': 'MachineLearning', 'EyeDetection': 'MachineLearning',
             'SmileDetection': 'MachineLearning', 'CornerDetection': 'MachineLearning', 'LineDetection': 'MachineLearning',
             'CircleDetection': 'MachineLearning', 'DocumentDetection': 'MachineLearning'}
-menuEdit = {"Undo": "Edit", "Redo": "Edit", "-": "Edit", "cut": "Edit", "copy": "Edit", "paste": "Edit",
-            "PasteFromHistory": "Edit", "Delete": "Edit", "-": "Edit", "SelectAll": "Edit"}
 
-openCvMenu = {"zoomIn": "View", "zoomOut": "View", "scaleToFit": "View", "drawLine": "Draw", "drawCircle": "Draw",
-              "drawRectangle": "Draw", "drawText": "Draw", "Resize": "Filter", "Translate": "*Filter"}
 
 if __name__ == '__main__':
     menu = {**menuEdit, **menuFile}
     _mainGenerator = mainGenerator(mainPath, "BiggusDickusV0_3")
     _mainGui = mainGUIGenerator(mainPath, "BiggusDickusV0_3")
     _menuCreator = menuCreator(mainPath, "BiggusDickusV0_3", menuFile)
-# _menuCreator.menuGenerator(menuFile)
-# _menuCreator.menuGenerator(menuEdit)
-# _menuCreator.returnSolution()
