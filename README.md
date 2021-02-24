@@ -2,7 +2,7 @@ BiggusDickus
 
 The name comes from Monty Python's Life of Brian simply beacause the world is divided into people like BiggusDickus sketch and the others. Now, something completely different:
 
-You can use PySide or PyQt to create gret GUI, but if you are lazy like me and don't want to spend whole days writing the same structure to create a main window and a menu you can use BiggusDickus.
+You can use PySide or PyQt to create great GUI, but if you are lazy like me and don't want to spend whole days writing the same structure to create a main window and a menu you can use BiggusDickus.
 
  menu = {'New': 'File', 'Open': 'File', 'Save': 'File', 'Save As': 'File', '-  ': 'File', 'Export': 'File',
         '- ': 'File', 'Print': 'File', 'Print Preview': 'File', '-': 'File', 'Quit': 'File', 'Undo': 'Edit',
